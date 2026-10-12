@@ -3,7 +3,7 @@
 int main() {
     char nom[4];
     printf("Nom ? ");
-    scanf("%s", nom); 
+    scanf("%s", &nom); // manque &
     printf("Bonjour %s\n", nom);
     return 0;
 }
