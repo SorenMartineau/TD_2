@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int x;
-    int y = x + 5;  
+    int x = 5; 
+    int y = x + 5;  // x sans valeur
     printf("%d\n", y);
     return 0;
 }
